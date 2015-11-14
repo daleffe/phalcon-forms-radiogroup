@@ -1,0 +1,19 @@
+{
+    "name": "daleffe/phalcon-forms-radiogroup",
+    "type": "library",
+    "description": "Phalcon form element to group radio buttons",
+    "keywords": ["phalcon", "forms"],
+    "license": "MIT",
+    "authors": [
+        {"name": "Guilherme Roberge Daleffe", "email": "falecomdaleffe@gmail.com"}
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.39"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
