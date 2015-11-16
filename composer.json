@@ -1,7 +1,7 @@
 {
     "name": "daleffe/phalcon-forms-radiogroup",
     "type": "library",
-    "description": "Phalcon form element to group radio buttons",
+    "description": "Phalcon form element to group radio inputs",
     "keywords": ["phalcon", "forms"],
     "license": "MIT",
     "authors": [
