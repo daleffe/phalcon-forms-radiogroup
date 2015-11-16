@@ -56,5 +56,3 @@ This will make the Phalcon correctly apply the filters, validators and *bind()* 
 
 ### Credits
 Credit should be given to [@edwardhew](https://github.com/edwardhew) who proposed this solution in the [Phalcon forum](https://forum.phalconphp.com/discussion/7471/radio-group).
-
-If you have a better proposal on how to apply this solution, open a [issue](https://github.com/daleffe/phalcon-forms-radiogroup/issues/new).
