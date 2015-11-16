@@ -18,7 +18,7 @@ class RadioGroup extends \Phalcon\Forms\Element
         }
 
         foreach ($attributes['elements'] as $key => $value) {
-            $checked = ($key == $this->getValue() ? ' checked' : null;
+            $checked = ($key == $this->getValue()) ? ' checked' : null;
 
             $html .= '<div class="' . $attributes['class'][$key] . '">';
             $html .= '<input type="radio" id="' . $this->getName() . $key . '" name="' . $this->getName() . '" value="' . $key . '"' . $checked . ' />';
