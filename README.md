@@ -1,7 +1,8 @@
-# Phalcon Forms Group
+# Phalcon Forms
+## Radio Group
 Phalcon Form element to group Radio inputs
 
-## Installation
+### Installation
 Update your composer.json with following options:
 ```
 {
@@ -18,7 +19,7 @@ Update your composer.json with following options:
 ```
 > I will check how to put this package in Packagist.org.
 
-## Usage
+### Usage
 In your forms class use:
 ``` php
 use Daleffe\Phalcon\Forms\Element\RadioGroup;
@@ -45,6 +46,7 @@ $status->setLabel("Status");
 
 $this->add($status);
 ```
+
 So, in view use:
 ```php
 {{ form.render('status') }}
@@ -52,5 +54,7 @@ So, in view use:
 
 This will make the Phalcon correctly apply the filters, validators and *bind()* method to persist in the database.
 
-## Credits
+### Credits
 Credit should be given to [@edwardhew](https://github.com/edwardhew) who proposed this solution in the [Phalcon forum](https://forum.phalconphp.com/discussion/7471/radio-group).
+
+If you have a better proposal on how to apply this solution, open a [issue](https://github.com/daleffe/phalcon-forms-radiogroup/issues/new).
