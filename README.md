@@ -12,7 +12,7 @@ Update your composer.json with following options:
 			"url": "https://github.com/daleffe/phalcon-forms-radiogroup"
 		}
 	],
-    "require": {
+        "require": {
 		  "daleffe/phalcon-forms-radiogroup": "dev-master",
     }
 }
@@ -30,16 +30,20 @@ $status = new RadioGroup("status", [
   'class' => array("radio radio-danger radio-inline", "radio radio-success radio-inline")
 ]);
 
-$status->addValidators(array(
-  new PresenceOf(array(
-		'message' => "Status required"
-	)),
-));
+$status->addValidators(
+    array(
+        new PresenceOf(
+            array(
+                'message' => "Status required"
+            )
+        )
+    )
+);
 
-if (is_null($devices)) {
+if (is_null($entity)) {
   $status->setDefault('1');
 } else {
-  $status->setDefault($devices->status);
+  $status->setDefault($entity->status);
 }
 
 $status->setLabel("Status");
