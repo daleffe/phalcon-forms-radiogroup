@@ -4,7 +4,7 @@ Phalcon Form element to group Radio inputs.
 
 ### Installation
 Update your composer.json with following options:
-```
+```json
 {
 	"repositories": [
 		{
