@@ -1,6 +1,6 @@
 # Phalcon Forms
 ## Radio Group
-Phalcon Form element to group Radio inputs.
+Phalcon (v4) Form element to group radio inputs.
 
 ### Installation
 Update your composer.json with following options:
@@ -31,13 +31,7 @@ $status = new RadioGroup("status", [
 ]);
 
 $status->addValidators(
-    array(
-        new PresenceOf(
-            array(
-                'message' => "Status required"
-            )
-        )
-    )
+    array(new PresenceOf(array('message' => "Status required")))
 );
 
 if (is_null($entity)) {
